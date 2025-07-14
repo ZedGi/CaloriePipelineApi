@@ -1,0 +1,22 @@
+# requirements.txt
+
+# API Web
+fastapi==0.116.0
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+
+# Deep Learning (versions de votre environnement)
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.3.162
+
+# Traitement d'image
+opencv-python-headless==4.11.0.86
+Pillow==11.3.0
+numpy==2.2.6
+
+# Data
+pandas==2.3.0
+
+# Validation
+pydantic==2.11.7
